@@ -1,4 +1,4 @@
-# SovereignShield
+# TCPA-NANPA-compliance-dialer-tool
 
 An AI-powered, local telemarketing compliance engine that acts as a real-time gatekeeper proxy for outbound dialing systems. Every call is evaluated against a multi-stage TCPA/TSR compliance pipeline before a SIP connection is placed.
 
@@ -8,7 +8,7 @@ The system runs **entirely on your local machine** — no external APIs, no clou
 
 ## What It Does
 
-A dialing system fires a request to `/api/v1/dial-check` before placing a call. SovereignShield runs the number through a sequential compliance pipeline and returns `ALLOW` or `BLOCK` within milliseconds, along with a cryptographically-signed audit record.
+A dialing system fires a request to `/api/v1/dial-check` before placing a call. TCPA-NANPA-compliance-dialer-tool runs the number through a sequential compliance pipeline and returns `ALLOW` or `BLOCK` within milliseconds, along with a cryptographically-signed audit record.
 
 ```
 Dialing System
