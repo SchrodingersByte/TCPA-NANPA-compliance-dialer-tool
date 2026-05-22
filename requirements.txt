@@ -1,0 +1,25 @@
+# SovereignShield — Python 3.11+ required
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+
+# Async DB layer — SQLite via aiosqlite
+sqlalchemy[asyncio]>=2.0.30
+aiosqlite>=0.20.0
+
+# Async file I/O
+aiofiles>=23.2.1
+
+# IANA timezone database (required on Windows — stdlib zoneinfo has no system DB)
+tzdata>=2024.1
+
+# Pydantic v2 + Settings management
+pydantic>=2.7.0
+pydantic-settings>=2.2.0
+
+# Local AI — Ollama Python SDK
+ollama>=0.2.1
+
+# Testing
+pytest>=8.2.0
+pytest-asyncio>=0.23.6
+httpx>=0.27.0
